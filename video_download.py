@@ -1,15 +1,16 @@
 import yt_dlp
 
 # URL of the video you want to download
-url = "https://www.facebook.com/share/v/19eLnMqERY/"
+url = ""
 
 # Download options
 ydl_opts = {
     # Pick best mp4 video + best m4a audio
     'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]',
 
-    # Save location and filename format
-    'outtmpl': 'C:\\Users\\smaam\\Documents\\Rakib_Abdullah_files\\Malay_Syarahan_dan_Kuliah\\%(id)s.%(ext)s',
+    # Save location and filename format (uncomment to input the directory)
+    # 'outtmpl': # 'directory of the video' + '\\%(id)s.%(ext)s', 
+    # Saves according to the ID of the video for videos with longer names 
 
     # Always merge into MP4 container
     'merge_output_format': 'mp4',

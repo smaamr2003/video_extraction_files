@@ -2,8 +2,8 @@ import whisper
 import os
 from deep_translator import GoogleTranslator
 
-# Path to your video file
-video_path = "C:\\Users\\smaam\\Documents\\Rakib_Abdullah_files\\Malay_Syarahan_dan_Kuliah\\1860038654555960.mp4"
+# Path to your video file (Uncomment to input the directory to video file)
+#video_path = "C:\\Users\\user\\Videos\\sample_video.mp4"
 
 # Load Whisper model (you can change "small" to "medium", "large", etc.)
 model = whisper.load_model("small")
